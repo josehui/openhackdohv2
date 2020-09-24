@@ -1,4 +1,11 @@
 # Docker
+- task: AzureWebAppContainer@1
+  inputs:
+    azureSubscription: 'ascdevopsoh'
+    appName: 'openhacky708ijk5userjava'
+    deployToSlotOrASE: true
+    resourceGroupName: 'openhacky708ijk5rg'
+    slotName: 'staging'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
