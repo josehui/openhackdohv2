@@ -10,6 +10,9 @@ trigger:
     include:
       - apis/userprofile/*
 
+# no PR triggers
+pr: none
+
 resources:
 - repo: self
 
