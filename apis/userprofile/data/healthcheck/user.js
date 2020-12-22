@@ -17,7 +17,7 @@ module.exports = {
             res.json({
                 message: 'healthcheck',
                 status: 'healthy',
-                updated: 1
+                updated: 2
             });
             callback;
         },
